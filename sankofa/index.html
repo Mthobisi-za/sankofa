@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-----connect css style-->
+    <link rel="stylesheet" href="/menu.css">
+    <!-----connect css style-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------keywords and ranking method-->
+    <meta name="discription" content="Sankofa is a tutoring program. Sankofa help student with their difficult studies. Sankofa accomodates student from grade 10, grade 11 also grade 12.">
+    <meta name="keywords" content="sankofa, Sankofa, sankofa tutoring services, tutor, online tutor, sankofa program, learn at sankofa, sankofian students, sankofa home">
+    <!------keywords and ranking method-->
+    <!------picture------->
+    <link rel="shortcut icon" href="" title="sankofa image" type="image/x-icon">
+    <!------picture------->
+    <title>Sankofa ~ Home</title>
+</head>
+
+<body>
+    <!------phone code------->
+    <div class="mobile_menu">
+        <div class="menu_holder">
+            <h1 class="h1_m_d">Sankofa Tutoring Service</h1>
+            <h3 class="h3_m_d"><button class="btn_m_d">Menu</button></h3>
+            <ul class="ul_m_d">
+                <li class="li_m_d" title="Sankofa contact details"><a href="" class="a_m_d">Contact Us</a></li>
+                <li class="li_m_d" title="About Sankofa"><a href="" class="a_m_d">About us</a></li>
+                <li class="li_m_d" title="Sankofa's home page"><a href="" class="a_m_d">Home</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!------phone code------->
+    <!---------laptop code----->
+    <!------menu laptop----->
+    <div class="laptop_m_d">
+        <div class="laptop_menu_holder">
+            <h1 class="laptop_h1_m_d">Sankofa Tutoring Service</h1>
+            <ul class="laptop_ul_m_d">
+                <li class="laptop_li_m_d" title="Sankofa contact details"><a href="" class="laptop_a_m_d">Contact Us</a></li>
+                <li class="laptop_li_m_d" title="About Sankofa"><a href="" class="laptop_a_m_d">About us</a></li>
+                <li class="laptop_li_m_d" title="Sankofa's home page"><a href="" class="laptop_a_m_d">Home</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!------menu laptop----->
+    <!---------laptop code----->
+    <!------script for phone---->
+    <script>
+        var num = 0;
+        var btn = document.querySelector(".btn_m_d");
+        btn.addEventListener("click", () => {
+            var ul = document.querySelector(".ul_m_d");
+            btn.style.border = "white";
+            if (num === 1) {
+                ul.style.display = "flex";
+                ul.style.flexWrap = "wrap";
+                num = num - 1;
+            } else {
+                ul.style.display = "none";
+                num = num + 1;
+            }
+
+        })
+    </script>
+    <!------script for phone---->
+</body>
+
+</html>

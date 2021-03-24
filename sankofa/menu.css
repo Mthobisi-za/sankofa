@@ -1,0 +1,99 @@
+        /*------laptop---*/
+        
+        body {
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .mobile_menu {
+            display: none;
+            position: fixed;
+        }
+        
+        .laptop_m_d {
+            margin: 0;
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        
+        .laptop_menu_holder {
+            margin: 0;
+            background-color: aquamarine;
+        }
+        
+        .laptop_h1_m_d {
+            text-align: center;
+            margin: 0;
+            font-family: monospace;
+        }
+        
+        .laptop_ul_m_d {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .laptop_li_m_d {
+            list-style-type: none;
+            margin-left: 5%;
+            padding: 1%;
+            transition: 1s;
+        }
+        
+        .laptop_li_m_d:hover {
+            background: white;
+        }
+        
+        .laptop_a_m_d {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /*------laptop---*/
+        /* -----mobile div menu-----*/
+        
+        @media (max-width:500px) {
+            body {
+                margin: 0;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .laptop_m_d {
+                display: none;
+            }
+            .mobile_menu {
+                display: block;
+                width: 100%;
+                height: auto;
+                margin: 0;
+            }
+            .menu_holder {
+                width: 100%;
+                height: auto;
+                margin: 0;
+                /*background: paleturquoise;*/
+            }
+            .h1_m_d {
+                margin: 0px;
+                text-align: center;
+                font-size: 170%;
+            }
+            .btn_m_d {
+                width: 50%;
+                height: auto;
+                height: 25px;
+                font-size: 60%;
+                margin-left: 5%;
+                border: none;
+            }
+            .ul_m_d {
+                display: none;
+            }
+            .li_m_d {
+                margin-left: 5%;
+                list-style-type: none;
+                margin-top: 1%;
+            }
+            .a_m_d {
+                text-decoration: none;
+            }
+        }
+        /* -----mobile div menu-----*/
